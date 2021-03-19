@@ -43,7 +43,7 @@ search.addEventListener("click", function click() {
           searchMatch.innerHTML = ""
           // console.log(data);
           let heading = document.createElement("h4")
-          heading.innerHTML = "Hey! Did you mean?🤔"
+          heading.innerHTML = "Hey! Did you mean?"
           searchMatch.appendChild(heading)
 
           data.forEach(element => {
